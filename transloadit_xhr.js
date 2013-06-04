@@ -78,7 +78,7 @@ TransloaditXhr.prototype.uploadFile = function(file) {
 };
 
 var transloadit = new TransloaditXhr({
-  authkey: "MY_AUTH_KEY",
+  authKey: "MY_AUTH_KEY",
   templateId: "MY_TEMPLATE_ID",
 
   successCb: function(fileUrl) {
