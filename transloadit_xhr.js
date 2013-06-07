@@ -85,7 +85,7 @@ var transloadit = new TransloaditXhr({
     console.log("Finished upload of file, amazon file url is: " + fileUrl);
   },
 
-  errorCb: function() {
+  errorCb: function(error) {
     alert(error);
   }
 });
